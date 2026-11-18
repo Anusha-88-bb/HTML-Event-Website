@@ -31,6 +31,18 @@
     a {
         color: skyblue;
     }
+    button {
+    background-color: purple;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deeppink;
+}
 </style>
 </head>
 <body>
@@ -142,5 +154,14 @@
 </a>
 
 <p>Thank you for visiting! We hope to see you soon. 💗</p>
+<h2>My Colourful Button 💗</h2>
+
+<button onclick="showMessage()">Click Me!</button>
+
+<script>
+    function showMessage() {
+        alert("Welcome to my website!");
+    }
+</script>
 </body>
 </html>
